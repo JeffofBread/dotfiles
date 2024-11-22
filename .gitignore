@@ -1,0 +1,36 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension (From https://stackoverflow.com/a/25592735)  ###
+
+
+# Ignore:
+.*
+*.bak
+*.json
+*.tar
+*.tar.gz
+*.log
+
+config.h
+binds.h
+jdwm_autostart.sh
+
+build/
+backup/
+distribute/
+
+# Keep: 
+!Makefile
+!LICENSE
+!VERSION
+!.gitignore
+!.gitattributes
+!.clang-format
+!.clang-tidy
