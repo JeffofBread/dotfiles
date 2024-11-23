@@ -12,25 +12,10 @@
 
 # Ignore:
 .*
-*.bak
-*.json
 *.tar
 *.tar.gz
-*.log
 
-config.h
-binds.h
-jdwm_autostart.sh
-
-build/
-backup/
-distribute/
-
-# Keep: 
-!Makefile
-!LICENSE
-!VERSION
+# Keep:
 !.gitignore
 !.gitattributes
 !.clang-format
-!.clang-tidy
