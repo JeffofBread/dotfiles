@@ -19,3 +19,4 @@
 !.gitignore
 !.gitattributes
 !.clang-format
+!.bashrc
